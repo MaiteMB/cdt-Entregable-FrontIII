@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8; /* Color de fondo suave */
+  min-height: 100vh;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  width: 200px;
+  background-color: #f7f7f7;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #9dd2e1; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7fb2c2; 
+   color: white;
+}
+
+p {
+  color: #f44336; 
+   font-weight: bold;
+}
+
+
+.Card {
+  background-color: #ffefd5; 
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 80%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Card h2 {
+  color: #7c7c7c; 
+}
+
+.Card p {
+  color: #555555; 
+  font-size: 18px;
+}
